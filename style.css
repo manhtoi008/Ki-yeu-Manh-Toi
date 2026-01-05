@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background: linear-gradient(135deg, #e8f5e9, #f1f8f4);
+    background: linear-gradient(135deg, #00ffff, #ff00ea);
     font-family: "Times New Roman", serif;
     display: flex;
     justify-content: center;
@@ -9,35 +9,39 @@ body {
 }
 
 .card {
-    width: auto;
-    padding: auto;
-    background: red;
-    border-radius: 16px;
+    width: 500px;
+    max-width: 95vw;
+    padding: 40px 40px;
+    background: rgb(255, 0, 234);
+    border-radius: 50px;
     text-align: center;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 24x rgba(0,0,0,0.15);
     cursor: pointer;
 }
 
 .title {
-    font-size: 34px;
-    color: #2f6f5f;
+    font-size: 50px;
+    color: #00ffff;
 }
 
 .date {
-    font-size: 26px;
+    font-size: 40px;
     font-weight: bold;
     margin: 12px 0;
 }
 
 .time, .place {
-    font-size: 18px;
+    font-size: 20px;
     margin: 6px 0;
+    font-weight: bolder;
 }
 
 .message {
-    margin-top: 20px;
+    margin-top: 16px;
     font-style: italic;
-    line-height: 1.6;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 25px;
 }
 .avatar {
     width: 140px;
@@ -48,4 +52,3 @@ body {
     margin-bottom: 15px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
-
