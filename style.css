@@ -1,7 +1,10 @@
 body {
     margin: 0;
     height: 100vh;
-    background: linear-gradient(135deg, #00ffff, #ff00ea);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("anhnen.jpg");
+    background-size: cover;
+    background-position: center;
     font-family: "Times New Roman", serif;
     display: flex;
     justify-content: center;
@@ -12,10 +15,12 @@ body {
     width: 500px;
     max-width: 95vw;
     padding: 40px 40px;
-    background: rgb(255, 0, 234);
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 50px;
     text-align: center;
-    box-shadow: 0 2px 24x rgba(0,0,0,0.15);
+    box-shadow: 1px solid rgba(255, 255, 255, 0.3);
     cursor: pointer;
 }
 
